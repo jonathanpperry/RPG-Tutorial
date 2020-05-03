@@ -13,7 +13,7 @@ public class Equipment : Item
     {
         base.Use();
         EquipmentManager.instance.Equip(this);
-        // Remove it from the inventory
+        RemoveFromInventory();
     }
 }
 
