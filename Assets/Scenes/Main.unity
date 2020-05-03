@@ -743,7 +743,7 @@ GameObject:
   - component: {fileID: 157603702}
   - component: {fileID: 157603701}
   m_Layer: 0
-  m_Name: Test Item 2
+  m_Name: Helmet of Protection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -758,12 +758,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 157603700}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 929c05ff7ce8f41b5b39a882f5a72a9d, type: 3}
+  m_Script: {fileID: 11500000, guid: 198ac51078114456eb097586a45fbd90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 3
   interactionTransform: {fileID: 157603705}
-  item: {fileID: 11400000, guid: bc7fa18e036ef4549820b0dba7093a68, type: 2}
+  item: {fileID: 11400000, guid: fdea9341ba1644fcd8b181fc844f291a, type: 2}
 --- !u!65 &157603702
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1612,7 +1612,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &346080612
 GameObject:
@@ -1628,7 +1628,7 @@ GameObject:
   - component: {fileID: 346080613}
   - component: {fileID: 346080617}
   m_Layer: 0
-  m_Name: Test Item
+  m_Name: Helmet of Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1715,12 +1715,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 346080612}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 929c05ff7ce8f41b5b39a882f5a72a9d, type: 3}
+  m_Script: {fileID: 11500000, guid: 198ac51078114456eb097586a45fbd90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 3
   interactionTransform: {fileID: 346080616}
-  item: {fileID: 11400000, guid: bc7fa18e036ef4549820b0dba7093a68, type: 2}
+  item: {fileID: 11400000, guid: 3a7e01db594254e4fbab701f0f5f39d6, type: 2}
 --- !u!4 &392314576 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4087213181031252, guid: 1d4e8fdf08b2060448400dd060a320a5,
@@ -1820,7 +1820,7 @@ RectTransform:
   m_Children:
   - {fileID: 2080528405}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1836,7 +1836,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 408645956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73617cd97567d40e1846ce6b730c3f6c, type: 3}
+  m_Script: {fileID: 11500000, guid: acf8be721ed09460187054a7294e841d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   itemsParent: {fileID: 1044695732}
@@ -3025,113 +3025,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 684305082}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &685526116
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 685526121}
-  - component: {fileID: 685526120}
-  - component: {fileID: 685526119}
-  - component: {fileID: 685526118}
-  - component: {fileID: 685526117}
-  m_Layer: 0
-  m_Name: Test Item 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &685526117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685526116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 929c05ff7ce8f41b5b39a882f5a72a9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 3
-  interactionTransform: {fileID: 685526121}
-  item: {fileID: 11400000, guid: 0638c32bec8f540aeb4942efc0433c83, type: 2}
---- !u!65 &685526118
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685526116}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &685526119
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685526116}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 733062c1c787c43a48d7a21202831550, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &685526120
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685526116}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &685526121
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685526116}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.06, y: -4.28, z: 10.4}
-  m_LocalScale: {x: 0.61521, y: 0.61521, z: 0.61521}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &701327022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4570,7 +4463,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1105647022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96ba0413edfc742699d5924b995bafd5, type: 3}
+  m_Script: {fileID: 11500000, guid: a891dca5a51944760bef82819c269070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   space: 20
