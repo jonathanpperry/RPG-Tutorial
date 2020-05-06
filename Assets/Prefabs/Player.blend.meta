@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: 4c8d18a614f17418bb928918171a189f
+guid: 73be9633513854604baae3aa06041436
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Armature
     100002: Chest
@@ -74,6 +74,14 @@ ModelImporter:
     100136: Upper Arm.R
     100138: Upper Leg.L
     100140: Upper Leg.R
+    100142: Body
+    100144: Hair
+    100146: Helmet
+    100148: Pants
+    100150: Platebody
+    100152: Platelegs
+    100154: Shirt
+    100156: Shoes
     400000: Armature
     400002: Chest
     400004: Cube
@@ -145,7 +153,23 @@ ModelImporter:
     400136: Upper Arm.R
     400138: Upper Leg.L
     400140: Upper Leg.R
+    400142: Body
+    400144: Hair
+    400146: Helmet
+    400148: Pants
+    400150: Platebody
+    400152: Platelegs
+    400154: Shirt
+    400156: Shoes
     4300000: Cube
+    4300002: Body
+    4300004: Pants
+    4300006: Shirt
+    4300008: Shoes
+    4300010: Hair
+    4300012: Platelegs
+    4300014: Platebody
+    4300016: Helmet
     7400000: Default Take
     7400002: Idle
     7400004: Run
@@ -155,13 +179,66 @@ ModelImporter:
     7400012: Armature|Walk
     9500000: //RootNode
     13700000: Cube
+    13700002: Body
+    13700004: Hair
+    13700006: Helmet
+    13700008: Pants
+    13700010: Platebody
+    13700012: Platelegs
+    13700014: Shirt
+    13700016: Shoes
     2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: 89c6d43b329d94ac4b884f452d6bacf4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair
+    second: {fileID: 2100000, guid: 451d44cd0083743189656dd22423e11a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Material
     second: {fileID: 2100000, guid: 3ed725f7d4fa6408cab10eb306af6454, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 32b74a447d3974446a9dc8904ede2ed5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_dark
+    second: {fileID: 2100000, guid: d47b6958b90d642ca91f755c26d35f2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pants
+    second: {fileID: 2100000, guid: c18e82623a58a4f088624b91629e4a77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt
+    second: {fileID: 2100000, guid: f59e85c7472894daa8735f19ac3ddae2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoe
+    second: {fileID: 2100000, guid: 5caabda869bda4e1cb2f425acf3e3901, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin
+    second: {fileID: 2100000, guid: 7be396b0fda364148874b58e5ca8b869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Underclothes
+    second: {fileID: 2100000, guid: a52bd07f89f9643c3862bfccc3d3e592, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -186,6 +263,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -284,6 +362,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -301,11 +380,16 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -779,7 +863,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
